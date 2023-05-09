@@ -17,9 +17,11 @@
 }
 .lighting-main {
   top: 233px;
-  left: 124px;
-  width: 1192px;
+  left: 0px;
+  right: 0px;
+  width: 70%;
   height: 699px;
+  margin: auto;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -76,9 +78,9 @@
   text-decoration: none;
 }
 .lighting-group7 {
-  top: 405.0877380371094px;
   left: 0px;
   width: 509.5910949707031px;
+  bottom: 0px;
   height: 293.9122619628906px;
   display: flex;
   position: absolute;
@@ -134,9 +136,9 @@
   position: absolute;
 }
 .lighting-group8 {
-  top: 405.0877380371094px;
-  left: 682.408935546875px;
+  right: 0px;
   width: 509.5910949707031px;
+  bottom: 0px;
   height: 293.9122619628906px;
   display: flex;
   position: absolute;
@@ -185,7 +187,7 @@
 }
 .lighting-group6 {
   top: 0px;
-  left: 682.408935546875px;
+  right: 0px;
   width: 509.5910949707031px;
   height: 293.9122619628906px;
   display: flex;

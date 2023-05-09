@@ -17,103 +17,149 @@
 }
 .devices-main {
   top: 282px;
-  left: 77px;
-  width: 1326px;
+  left: 0px;
+  right: 0px;
+  width: 65%;
   height: 694px;
+  margin: auto;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
 }
+.devices-container1 {
+  top: 0px;
+  left: 30%;
+  width: 20%;
+  height: 694px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
 .devices-rectangle8 {
   top: 0px;
-  left: 396px;
-  width: 307px;
+  left: 0px;
+  width: 100%;
   height: 694px;
   position: absolute;
   border-radius: 20px;
 }
+.devices-text {
+  top: 25px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.devices-container2 {
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  height: 694px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
 .devices-rectangle9 {
   top: 0px;
-  left: 792px;
-  width: 307px;
+  left: 0px;
+  width: 100%;
   height: 694px;
   position: absolute;
   border-radius: 20px;
+}
+.devices-text02 {
+  top: 25px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.devices-container3 {
+  top: 0px;
+  left: 60%;
+  width: 20%;
+  height: 694px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
 }
 .devices-rectangle10 {
   top: 0px;
   left: 0px;
-  width: 307px;
+  width: 100%;
   height: 694px;
   position: absolute;
   border-radius: 20px;
+}
+.devices-text04 {
+  top: 25px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.devices-container4 {
+  top: 0px;
+  right: 0px;
+  width: 10%;
+  height: 694px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
 }
 .devices-navlink {
   display: contents;
 }
 .devices-rectangle11 {
   top: 0px;
-  left: 1180px;
-  width: 146px;
+  left: 0px;
+  width: 100%;
   height: 694px;
   position: absolute;
   border-radius: 20px;
   text-decoration: none;
 }
-.devices-text {
-  top: 25px;
-  left: 71px;
-  color: rgba(0, 0, 0, 1);
-  width: 165px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.devices-text02 {
-  top: 25px;
-  left: 457px;
-  color: rgba(0, 0, 0, 1);
-  width: 186px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.devices-text04 {
-  top: 25px;
-  left: 881px;
-  color: rgba(0, 0, 0, 1);
-  width: 130px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
 .devices-addround {
   top: 275px;
-  left: 1190px;
-  width: 136px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
   height: 144px;
+  margin: auto;
   position: absolute;
 }
 .devices-banner {
@@ -219,6 +265,13 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .devices-main {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
 }
 @media(max-width: 991px) {
   .devices-sections {

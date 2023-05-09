@@ -17,9 +17,11 @@
 }
 .water-main {
   top: 249px;
-  left: 67px;
+  left: 0px;
+  right: 0px;
   width: 1328px;
   height: 722px;
+  margin: auto;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -436,6 +438,27 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .water-water {
+    height: 1815px;
+  }
+  .water-graph {
+    top: 750px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .water-group3 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .water-group4 {
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
 }
 @media(max-width: 991px) {
   .water-sections {

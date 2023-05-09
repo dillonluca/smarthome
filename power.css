@@ -17,9 +17,11 @@
 }
 .power-main {
   top: 233px;
-  left: 79px;
+  left: 0px;
+  right: 0px;
   width: 1319px;
   height: 722px;
+  margin: auto;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -234,21 +236,17 @@
   height: 113px;
   position: absolute;
 }
-.power-rectangle111 {
+.power-group1 {
   top: 0px;
   left: 0px;
-  width: 720px;
+  width: 50%;
   height: 328px;
+  display: flex;
+  z-index: 100;
   position: absolute;
-  border-radius: 20px;
-}
-.power-rectangle121 {
-  top: 389px;
-  left: 0px;
-  width: 720px;
-  height: 333px;
-  position: absolute;
-  border-radius: 20px;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(205, 209, 228, 0.5);
 }
 .power-text14 {
   top: 181px;
@@ -314,11 +312,22 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.power-group2 {
+  top: 389px;
+  left: 0px;
+  width: 50%;
+  height: 333px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(205, 209, 228, 0.5);
+}
 .power-text25 {
-  top: 569px;
+  top: 180px;
   left: 39px;
-  color: rgba(0, 0, 0, 1);
-  width: 452px;
+  color: rgb(0, 0, 0);
+  width: 70%;
   height: auto;
   position: absolute;
   font-size: 40px;
@@ -330,11 +339,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.power-text30 {
-  top: 648px;
+.power-text28 {
+  top: 259px;
   left: 39px;
   color: rgba(0, 0, 0, 1);
-  width: 238px;
+  width: 40%;
   height: auto;
   position: absolute;
   font-size: 48px;
@@ -346,11 +355,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.power-text32 {
-  top: 404px;
+.power-text29 {
+  top: 15px;
   left: 40px;
   color: rgba(0, 0, 0, 1);
-  width: 452px;
+  width: 30%;
   height: auto;
   position: absolute;
   font-size: 40px;
@@ -362,11 +371,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.power-text37 {
-  top: 483px;
+.power-text34 {
+  top: 94px;
   left: 40px;
   color: rgba(0, 0, 0, 1);
-  width: 343px;
+  width: 50%;
   height: auto;
   position: absolute;
   font-size: 48px;
@@ -388,16 +397,16 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.power-rectangle122 {
+.power-rectangle121 {
   top: 0px;
   left: 0px;
   width: 100%;
   height: 208px;
   position: absolute;
 }
-.power-text39 {
+.power-text35 {
   top: 38px;
-  left: 107px;
+  left: var(--dl-space-space-sixunits);
   color: rgba(0, 0, 0, 1);
   width: 1150px;
   height: auto;
@@ -411,9 +420,49 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.power-text41 {
+.power-sections {
   top: 144px;
-  left: 107px;
+  left: var(--dl-space-space-sixunits);
+  width: 45%;
+  height: 89px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.power-text37 {
+  top: 0px;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.power-text39 {
+  left: 33%;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.power-text41 {
+  left: 100%;
   color: rgba(0, 0, 0, 1);
   width: 171px;
   height: auto;
@@ -428,40 +477,7 @@
   text-decoration: none;
 }
 .power-text43 {
-  top: 144px;
-  left: 315px;
-  color: rgba(0, 0, 0, 1);
-  width: 171px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.power-text45 {
-  top: 144px;
-  left: 731px;
-  color: rgba(0, 0, 0, 1);
-  width: 171px;
-  height: auto;
-  position: absolute;
-  font-size: 30px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.power-text47 {
-  top: 144px;
-  left: 523px;
+  left: 66%;
   color: rgba(11, 127, 171, 1);
   width: 171px;
   height: auto;
@@ -476,10 +492,102 @@
   text-decoration: none;
 }
 @media(max-width: 1600px) {
-  .power-banner {
-    width: 100%;
+  .power-text25 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
   }
-  .power-rectangle122 {
-    width: 100%;
+  .power-text34 {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
+@media(max-width: 1200px) {
+  .power-power {
+    height: 1713px;
+  }
+  .power-main {
+    width: 1200px;
+    height: 1477px;
+  }
+  .power-graph {
+    top: 800px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+  }
+  .power-group1 {
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    margin: auto;
+  }
+  .power-group2 {
+    left: 0px;
+    right: 0px;
+    width: 50%;
+    margin: auto;
+  }
+  .power-text34 {
+    top: 58px;
+    left: 40px;
+    color: rgb(0, 0, 0);
+  }
+}
+@media(max-width: 991px) {
+  .power-main {
+    width: 991px;
+  }
+  .power-text28 {
+    color: rgb(0, 0, 0);
+    font-size: 48px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .power-text34 {
+    top: 67px;
+    left: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+  .power-sections {
+    left: 0px;
+    width: 70%;
+  }
+  .power-text37 {
+    left: 2%;
+  }
+}
+@media(max-width: 767px) {
+  .power-main {
+    width: 767px;
+  }
+  .power-group1 {
+    border-radius: var(--dl-radius-radius-radius2);
+  }
+  .power-text34 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    font-family: IBM Plex Mono;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+}
+@media(max-width: 479px) {
+  .power-main {
+    width: 479px;
   }
 }

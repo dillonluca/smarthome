@@ -1,4 +1,4 @@
-.devices-container {
+.new-device-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
-.devices-devices {
+.new-device-new-device {
   width: 100%;
   height: 1024px;
   display: flex;
@@ -15,57 +15,53 @@
   flex-shrink: 0;
   background-color: rgba(255, 255, 255, 1);
 }
-.devices-main {
+.new-device-main {
   top: 282px;
-  left: 77px;
-  width: 1326px;
-  height: 694px;
+  left: 84px;
+  width: 1277px;
+  height: 696px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
 }
-.devices-rectangle8 {
-  top: 0px;
-  left: 396px;
-  width: 307px;
-  height: 694px;
+.new-device-rectangle11 {
+  top: 558px;
+  left: 0px;
+  width: 1277px;
+  height: 132px;
   position: absolute;
   border-radius: 20px;
 }
-.devices-rectangle9 {
-  top: 0px;
-  left: 792px;
-  width: 307px;
-  height: 694px;
-  position: absolute;
-  border-radius: 20px;
-}
-.devices-rectangle10 {
+.new-device-rectangle12 {
   top: 0px;
   left: 0px;
-  width: 307px;
-  height: 694px;
+  width: 1277px;
+  height: 517px;
   position: absolute;
   border-radius: 20px;
 }
-.devices-navlink {
-  display: contents;
-}
-.devices-rectangle11 {
-  top: 0px;
-  left: 1180px;
-  width: 146px;
-  height: 694px;
+.new-device-rectangle8 {
+  top: 80px;
+  left: 23px;
+  width: 416px;
+  height: 51px;
   position: absolute;
   border-radius: 20px;
-  text-decoration: none;
 }
-.devices-text {
-  top: 25px;
-  left: 71px;
+.new-device-rectangle13 {
+  top: 293px;
+  left: 23px;
+  width: 416px;
+  height: 181px;
+  position: absolute;
+  border-radius: 20px;
+}
+.new-device-text {
+  top: 24px;
+  left: 31px;
   color: rgba(0, 0, 0, 1);
-  width: 165px;
+  width: 299px;
   height: auto;
   position: absolute;
   font-size: 25px;
@@ -77,11 +73,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.devices-text02 {
-  top: 25px;
-  left: 457px;
+.new-device-text02 {
+  top: 204px;
+  left: 31px;
   color: rgba(0, 0, 0, 1);
-  width: 186px;
+  width: 299px;
   height: auto;
   position: absolute;
   font-size: 25px;
@@ -93,30 +89,14 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.devices-text04 {
-  top: 25px;
-  left: 881px;
-  color: rgba(0, 0, 0, 1);
-  width: 130px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.devices-addround {
-  top: 275px;
-  left: 1190px;
+.new-device-addround {
+  top: 552px;
+  left: 542px;
   width: 136px;
   height: 144px;
   position: absolute;
 }
-.devices-banner {
+.new-device-banner {
   top: 0px;
   left: 0px;
   width: 100%;
@@ -126,14 +106,14 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.devices-rectangle12 {
+.new-device-rectangle121 {
   top: 0px;
   left: 0px;
   width: 100%;
   height: 208px;
   position: absolute;
 }
-.devices-text06 {
+.new-device-text04 {
   top: 38px;
   left: var(--dl-space-space-sixunits);
   color: rgba(0, 0, 0, 1);
@@ -149,7 +129,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.devices-sections {
+.new-device-sections {
   top: 144px;
   left: var(--dl-space-space-sixunits);
   width: 45%;
@@ -160,7 +140,7 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.devices-text08 {
+.new-device-text06 {
   top: 0px;
   color: rgba(0, 0, 0, 1);
   width: 171px;
@@ -175,7 +155,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.devices-text10 {
+.new-device-text08 {
   left: 33%;
   color: rgba(0, 0, 0, 1);
   width: 171px;
@@ -190,7 +170,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.devices-text12 {
+.new-device-text10 {
   left: 100%;
   color: rgba(11, 127, 171, 1);
   width: 171px;
@@ -205,7 +185,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.devices-text14 {
+.new-device-text12 {
   left: 66%;
   color: rgba(0, 0, 0, 1);
   width: 171px;
@@ -221,11 +201,11 @@
   text-decoration: none;
 }
 @media(max-width: 991px) {
-  .devices-sections {
+  .new-device-sections {
     left: 0px;
     width: 70%;
   }
-  .devices-text08 {
+  .new-device-text06 {
     left: 2%;
   }
 }

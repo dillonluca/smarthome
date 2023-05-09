@@ -25,78 +25,6 @@
   align-items: flex-start;
   flex-shrink: 1;
 }
-.water-rectangle8 {
-  top: 0px;
-  left: 0px;
-  width: 720px;
-  height: 230px;
-  position: absolute;
-  border-radius: 20px;
-}
-.water-rectangle11 {
-  top: 262px;
-  left: 0px;
-  width: 720px;
-  height: 460px;
-  position: absolute;
-  border-radius: 20px;
-}
-.water-text {
-  top: 30px;
-  left: 248px;
-  color: rgba(0, 0, 0, 1);
-  width: 238px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.water-text02 {
-  top: 90px;
-  left: 248px;
-  color: rgba(0, 0, 0, 1);
-  width: 238px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.water-text04 {
-  top: 287px;
-  left: 40px;
-  color: rgba(0, 0, 0, 1);
-  width: 189px;
-  height: auto;
-  position: absolute;
-  font-size: 25px;
-  font-style: Regular;
-  text-align: left;
-  font-family: IBM Plex Mono;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.water-rectangle10 {
-  top: 15px;
-  left: 26px;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  border-radius: 20px;
-}
 .water-graph {
   top: 0px;
   left: 772px;
@@ -115,7 +43,7 @@
   position: absolute;
   border-radius: 20px;
 }
-.water-rectangle111 {
+.water-rectangle11 {
   top: 201px;
   left: 63px;
   width: 53px;
@@ -187,7 +115,7 @@
   position: absolute;
   border-radius: 200px;
 }
-.water-text09 {
+.water-text {
   top: 567px;
   left: 63px;
   color: rgba(0, 0, 0, 1);
@@ -203,7 +131,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text11 {
+.water-text02 {
   top: 567px;
   left: 132px;
   color: rgba(0, 0, 0, 1);
@@ -219,7 +147,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text13 {
+.water-text04 {
   top: 567px;
   left: 206px;
   color: rgba(0, 0, 0, 1);
@@ -235,7 +163,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text15 {
+.water-text06 {
   top: 567px;
   left: 275px;
   color: rgba(0, 0, 0, 1);
@@ -251,7 +179,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text17 {
+.water-text08 {
   top: 34px;
   left: 210px;
   color: rgba(0, 0, 0, 1);
@@ -267,7 +195,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text19 {
+.water-text10 {
   top: 567px;
   left: 344px;
   color: rgba(0, 0, 0, 1);
@@ -283,7 +211,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text21 {
+.water-text12 {
   top: 567px;
   left: 418px;
   color: rgba(0, 0, 0, 1);
@@ -306,6 +234,57 @@
   height: 113px;
   position: absolute;
 }
+.water-group3 {
+  top: 0px;
+  left: 0px;
+  width: 720px;
+  height: 230px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(205, 209, 228, 0.5);
+}
+.water-text14 {
+  top: 30px;
+  left: 248px;
+  color: rgba(0, 0, 0, 1);
+  width: 238px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text16 {
+  top: 90px;
+  left: 248px;
+  color: rgba(0, 0, 0, 1);
+  width: 238px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-rectangle10 {
+  top: 15px;
+  left: 26px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 20px;
+}
 .water-humidity {
   top: 36px;
   left: 51px;
@@ -313,15 +292,42 @@
   height: 150px;
   position: absolute;
 }
+.water-group4 {
+  top: 262px;
+  left: 0px;
+  width: 720px;
+  height: 460px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(205, 209, 228, 0.5);
+}
+.water-text18 {
+  top: 25px;
+  left: 40px;
+  color: rgba(0, 0, 0, 1);
+  width: 189px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
 .water-ellipse71 {
-  top: 318px;
+  top: 56px;
   left: 172px;
   width: 370px;
   height: 370px;
   position: absolute;
 }
 .water-ellipse30 {
-  top: 323px;
+  top: 61px;
   left: 177px;
   width: 360px;
   height: 360px;
@@ -331,7 +337,7 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: auto;
+  height: 233px;
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -346,7 +352,7 @@
 }
 .water-text23 {
   top: 38px;
-  left: 107px;
+  left: var(--dl-space-space-sixunits);
   color: rgba(0, 0, 0, 1);
   width: 1150px;
   height: auto;
@@ -360,9 +366,19 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.water-text25 {
+.water-sections {
   top: 144px;
-  left: 107px;
+  left: var(--dl-space-space-sixunits);
+  width: 45%;
+  height: 89px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.water-text25 {
+  top: 0px;
   color: rgba(0, 0, 0, 1);
   width: 171px;
   height: auto;
@@ -377,8 +393,7 @@
   text-decoration: none;
 }
 .water-text27 {
-  top: 144px;
-  left: 315px;
+  left: 33%;
   color: rgba(11, 127, 171, 1);
   width: 171px;
   height: auto;
@@ -393,8 +408,7 @@
   text-decoration: none;
 }
 .water-text29 {
-  top: 144px;
-  left: 731px;
+  left: 100%;
   color: rgba(0, 0, 0, 1);
   width: 171px;
   height: auto;
@@ -409,8 +423,7 @@
   text-decoration: none;
 }
 .water-text31 {
-  top: 144px;
-  left: 523px;
+  left: 66%;
   color: rgba(0, 0, 0, 1);
   width: 171px;
   height: auto;
@@ -423,4 +436,13 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+}
+@media(max-width: 991px) {
+  .water-sections {
+    left: 0px;
+    width: 70%;
+  }
+  .water-text25 {
+    left: 2%;
+  }
 }

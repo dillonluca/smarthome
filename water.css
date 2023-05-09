@@ -1,0 +1,426 @@
+.water-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.water-water {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.water-main {
+  top: 249px;
+  left: 67px;
+  width: 1328px;
+  height: 722px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.water-rectangle8 {
+  top: 0px;
+  left: 0px;
+  width: 720px;
+  height: 230px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle11 {
+  top: 262px;
+  left: 0px;
+  width: 720px;
+  height: 460px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-text {
+  top: 30px;
+  left: 248px;
+  color: rgba(0, 0, 0, 1);
+  width: 238px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text02 {
+  top: 90px;
+  left: 248px;
+  color: rgba(0, 0, 0, 1);
+  width: 238px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text04 {
+  top: 287px;
+  left: 40px;
+  color: rgba(0, 0, 0, 1);
+  width: 189px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-rectangle10 {
+  top: 15px;
+  left: 26px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-graph {
+  top: 0px;
+  left: 772px;
+  width: 556px;
+  height: 722px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.water-rectangle12 {
+  top: 0px;
+  left: 0px;
+  width: 546px;
+  height: 722px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle111 {
+  top: 201px;
+  left: 63px;
+  width: 53px;
+  height: 343px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle13 {
+  top: 328px;
+  left: 132px;
+  width: 53px;
+  height: 216px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle14 {
+  top: 230px;
+  left: 206px;
+  width: 53px;
+  height: 314px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle15 {
+  top: 201px;
+  left: 275px;
+  width: 53px;
+  height: 343px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle16 {
+  top: 201px;
+  left: 344px;
+  width: 53px;
+  height: 343px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle17 {
+  top: 230px;
+  left: 418px;
+  width: 53px;
+  height: 314px;
+  position: absolute;
+  border-radius: 20px;
+}
+.water-rectangle20 {
+  top: 661px;
+  left: 245px;
+  width: 62px;
+  height: 28px;
+  position: absolute;
+  border-radius: 200px;
+}
+.water-rectangle18 {
+  top: 665px;
+  left: 249px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 200px;
+}
+.water-rectangle19 {
+  top: 665px;
+  left: 282px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 200px;
+}
+.water-text09 {
+  top: 567px;
+  left: 63px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text11 {
+  top: 567px;
+  left: 132px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text13 {
+  top: 567px;
+  left: 206px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text15 {
+  top: 567px;
+  left: 275px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text17 {
+  top: 34px;
+  left: 210px;
+  color: rgba(0, 0, 0, 1);
+  width: 110px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text19 {
+  top: 567px;
+  left: 344px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text21 {
+  top: 567px;
+  left: 418px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-expandrightlight {
+  top: 304px;
+  left: 471px;
+  width: 85px;
+  height: 113px;
+  position: absolute;
+}
+.water-humidity {
+  top: 36px;
+  left: 51px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+}
+.water-ellipse71 {
+  top: 318px;
+  left: 172px;
+  width: 370px;
+  height: 370px;
+  position: absolute;
+}
+.water-ellipse30 {
+  top: 323px;
+  left: 177px;
+  width: 360px;
+  height: 360px;
+  position: absolute;
+}
+.water-banner {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.water-rectangle121 {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 208px;
+  position: absolute;
+}
+.water-text23 {
+  top: 38px;
+  left: 107px;
+  color: rgba(0, 0, 0, 1);
+  width: 1150px;
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text25 {
+  top: 144px;
+  left: 107px;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text27 {
+  top: 144px;
+  left: 315px;
+  color: rgba(11, 127, 171, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text29 {
+  top: 144px;
+  left: 731px;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.water-text31 {
+  top: 144px;
+  left: 523px;
+  color: rgba(0, 0, 0, 1);
+  width: 171px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Regular;
+  text-align: left;
+  font-family: IBM Plex Mono;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
